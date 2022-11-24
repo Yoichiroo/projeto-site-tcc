@@ -5,16 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entre</title>
+    <link rel="stylesheet" href="./estilos/login-style.css">
 </head>
 <body>
     <main>
         <h1>KARNAK</h1>
-        <p>Seja bem-vindo!</p>
+        <p class="titulo-paragrafo">Seja bem-vindo!</p>
         <form action="">
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome">
-            <label for="senha">Senha:</label>
-            <input type="text" name="senha" id="senha">
+            <fieldset>
+                <legend>
+                    <label for="email">Email</label>
+                </legend>
+                <input type="text" name="email" id="email" placeholder="joaodasilva@gmail.com">
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <label for="senha">Senha</label>
+                </legend>
+                <input type="password" name="senha" id="senha" placeholder="12345678">
+            </fieldset>
+            <div class="login-centro">
+                <div class="button"><a href="./index.html">Entrar</a> <br></div>
+                <div class="cadastro-login">
+                    <a href="esqueci.html" class="cadastro">Esqueci minha senha</a>
+                    <p>Não tem uma conta? <a href="cadastro.html" class="cadastro">Cadastre-se</a></p>
+                </div>
+            </div>
         </form>
     </main>
 </body>

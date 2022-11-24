@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Poppins:wght@400;500&family=Unna:wght@400;700&display=swap');
+
+:root {
+    --cor1: #D6AE10; /* Cor secundária */
+    --cor2: #EDA705; 
+    --cor3: #e2921b; /* Cor principal */
+    --cor4: #F05711;
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    width: 98vw;
+    height: 98vh;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.329);
+}
+
+main h1 {
+    font-size: 2em;
+    font-weight: bold;
+    cursor: default;
+    font-family: 'Unna';
+}
+
+main p.titulo-paragrafo {
+    font-size: 1.3em;
+    cursor: default;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    height: 5vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    text-indent: 15px;
+}
+
+fieldset {
+    border: none;
+    font-size: 1.2em;
+}
+
+div.login-centro {
+    text-align: center;
+}
+
+div.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin: 10px auto;
+    background-color: var(--cor4);
+    border-radius: 20px;
+    height: 40px;
+    transition: 0.2s ease;
+
+}
+
+div.button:hover {
+    width: 130px;
+    background-color: #ec763f;
+}
+
+div.button a {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+div.cadastro-login {
+    margin: 20px;
+}
+
+div.cadastro-login a.cadastro {
+    text-decoration: none;
+    color: var(--cor4);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.1s ease-in;
+}
+
+div.cadastro-login a:hover {
+    background-color: var(--cor4);
+    color: white;
+    font-weight: normal;
+    padding: 5px;
+    border-radius: 50px;
+}

@@ -33,6 +33,7 @@ main {
     transform: translate(-50%, -50%);
     border-radius: 50px;
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.329);
+    height: 60vh;
 }
 
 main h1 {
@@ -115,4 +116,19 @@ div.cadastro-login a:hover {
     font-weight: normal;
     padding: 5px;
     border-radius: 50px;
+}
+
+form.form-cadastro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form.form-cadastro fieldset {
+    width: 43%;
+}
+
+form.form-cadastro input {
+    width: 100%;
 }

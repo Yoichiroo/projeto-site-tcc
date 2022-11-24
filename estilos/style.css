@@ -12,7 +12,7 @@
     --cor1: #D6AE10; /* Cor secundária */
     --cor2: #EDA705; 
     --cor3: #e2921b; /* Cor principal */
-    --cor4: #ee6424;
+    --cor4: #ee6a2c;
     --cor5: #f58421;
 }
 
@@ -63,6 +63,7 @@ header nav ul li a {
     color: white;
     text-decoration: none;
     transition: 0.2s;
+    margin: 10px;
 }
 
 header nav ul li a:hover {
@@ -76,7 +77,7 @@ header nav ul li a:hover {
 
 main {
     display: flex;
-    row-gap: 15px;
+    row-gap: 5px;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;

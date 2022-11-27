@@ -1,44 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produto</title>
-    <link rel="stylesheet" href="estilos/style.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>KARNAK Ltd.</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="./imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/info-produto.css">
 </head>
 <body>
-    <!-- Meu Rei Lucas, Dono deste glorioso projeto, não sabia o que vossa majestade queria nesta humilde tela de produto. Então, fiz apenas um rascunho de uma minúscula ideia na minha efêmera mente. -->
     <header>
-    <div>
-        <p>KARNAK</p>
-        <img src="imagens/logo.png" alt="Logo">
-    </div>
-    <nav>
-        <ul>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="index.html">Produtos</a></li>
-            <li><a href="sobre.html">Sobre nós</a></li>
-            <li><a href="endereco.html">Endereço</a></li>
-        </ul>
-    </nav>
-</header>
+        <div>
+            <p>KARNAK</p>
+            <a href="index.html"><img src="imagens/logo.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="endereco.html">Endereço</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <section class="voltar-pagina">
+            <a href="./index.html">Página inicial > <a href="./info-bolo-1.html"><strong class="negrito">Bolo de Chocolate</strong></a>
+        </section>
+    </aside>
     <main>
-        <section class="produto">
-            <div class="cor">
-                <a href="" class="info-bolo-texto">
-                    <img src="imagens/bolo-de-chocolate.png" alt="Bolo 1">
-                    <p class="titulo-produto">BOLO DE CHOCOLATE</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, labore. Laudantium nulla natus commodi dolore nisi eaque perspiciatis tempore. Numquam pariatur ullam nostrum consequuntur porro, quidem amet obcaecati in voluptate.</p>
+        <section class="info-produto-imagem">
+            <img src="imagens/bolo-de-chocolate.png" alt="">
+        </section>
+        <section class="info-produto-texto">
+            <h1>BOLO DE CHOCOLATE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores eligendi, incidunt, explicabo ad iusto laudantium quis veniam voluptate blanditiis eum sint, inventore consequatur illum modi pariatur accusantium molestiae aut ipsum doloremque cumque. Accusamus cumque facilis veniam repellendus sunt quos laudantium quia commodi tempora tenetur? Tempora est eligendi sint commodi nisi, reiciendis placeat illo atque praesentium ea, ipsam impedit nesciunt cum necessitatibus quas excepturi voluptatem sequi maiores! Esse assumenda libero quaerat porro at necessitatibus reprehenderit odit tempore, blanditiis ratione. Explicabo odit aperiam minus? Omnis sed sit possimus iste sapiente, eum placeat dolores odit quisquam, quo quas. Nisi perferendis velit error facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsa iusto harum dignissimos, id rerum labore optio similique, dolorum distinctio cumque perspiciatis at corrupti ex placeat aliquam enim porro consequatur vel excepturi quos iure inventore officia eius? Quibusdam blanditiis incidunt quidem, amet doloribus exercitationem repellendus qui. Vel quaerat esse rem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat animi assumenda nihil! Deserunt autem accusantium magnam eius eaque ut blanditiis, repellat aut molestiae. Placeat quibusdam aliquid delectus quasi, eius ut?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi corrupti labore et impedit? Earum molestias voluptatibus totam sequi est consectetur, minus eos qui facere dolorum rerum sit vel, quo nobis!Lorem</p>
+            <div class="icones">
+                <i class="material-icons" class="icones">star</i>
+                <i class="material-icons" class="icones">star</i>
+                <i class="material-icons" class="icones">star</i>
+                <i class="material-icons" id="nao-icones">star</i>
+                <i class="material-icons" id="nao-icones">star</i>
             </div>
-                <i class="material-icons" class="icones">star</i>
-                <i class="material-icons" class="icones">star</i>
-                <i class="material-icons" class="icones">star</i>
-                <i class="material-icons" id="nao-icones">star</i>
-                <i class="material-icons" id="nao-icones">star</i>
-            </a>
         </section>
     </main>
+    <div class="botao">
+        <a href="encomenda-bolo-4.html">ENCOMENDAR</a>
+    </div>
+</body>
 </html>

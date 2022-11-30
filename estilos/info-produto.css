@@ -107,10 +107,10 @@ main {
 }
 
 section.info-produto-texto {
-    width: 700px;
+    width: 650px;
     text-align: justify;
     padding: 5px;
-    height: 70vh;
+    height: 90vh;
 }
 
 section.info-produto-texto h1 {

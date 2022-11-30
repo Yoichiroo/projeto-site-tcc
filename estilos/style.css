@@ -95,7 +95,7 @@ main section.produtos {
 }
 
 main section.produto {
-    width: 666px;
+    width: 600px;
     margin: 20px 0px;
     text-align: justify;
     transition: 0.2s ease;
@@ -105,7 +105,7 @@ main section.produto {
 }
 
 main section.produto:hover {
-    width: 675px;
+    width: 625px;
 }
 
 main section.produto img {
@@ -138,6 +138,7 @@ main section a.info-bolo-texto {
 
 main section a.info-bolo-texto i{
     color: var(--cor1);
+    font-size: 2.2em;
 }
 
 main section a.info-bolo-texto i#nao-icones{

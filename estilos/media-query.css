@@ -1,1 +1,108 @@
 @charset "UTF-8";
+
+@media screen and (max-width:768px) {
+/* CELULAR */
+
+    header {
+        gap: 240px;
+    }
+
+    header i#menu {
+        display: block;
+        text-align: right;
+        color: white;
+        font-size: 2em;
+        cursor: pointer;
+        transition: .2s ease;
+    }
+
+    header i#menu:hover {
+        font-size: 2.3em;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    main div.promocoes {
+        height: 65vh;
+        background-size: cover;
+        background-image: url('../imagens/KARNAK-PEQUENO.png');
+        padding: 10px;
+    }
+
+    main section.produto {
+        width: 400px;
+        padding: 10px;
+    }
+
+    main section.produto:hover {
+        width: 410px;
+    }
+
+    main section.produto p {
+        font-size: 1.2em;
+        width: 370px;
+        margin: 10px;
+    }
+
+    main section.produto h2.titulo-produto {
+        font-size: 1em;
+        margin: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 769px) {
+    main {
+        flex-direction: row;
+    }
+
+    main section.promocoes {
+        height: 50vh;
+        background-size: cover;
+    }
+
+    main section.produto {
+        width: 750px;
+    }
+
+    main section.produto p {
+        width: 720px;
+        margin: 10px;
+    }
+
+    main section.produto:hover {
+        width: 770px;
+    }
+
+    main section.produto h2.titulo-produto {
+        font-size: 1em;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main section.produto {
+        width: 620px;
+        margin: 10px 0px;
+        text-align: justify;
+        transition: 0.2s ease;
+        font-family: 'Inter Tight';
+        font-weight: 500;
+        transition: .2s ease;
+    }
+
+    main section.promocoes {
+        height: 70vh;
+    }
+
+    main section.produto:hover {
+    width: 650px;
+    }
+
+    main section.produto p {
+        width: 580px;
+    }
+}

@@ -23,14 +23,29 @@
     main div.promocoes {
         height: 65vh;
         background-size: cover;
-        background-image: url('../imagens/KARNAK-PEQUENO.png');
         padding: 10px;
+    }
+
+    
+    main aside.bolo-principal {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    main aside.bolo-principal img.bolo-principal-img {
+        width: 50%;
+        margin: 20px;
     }
 
     main section.produto {
         width: 400px;
         padding: 10px;
     }
+
 
     main section.produto:hover {
         width: 410px;
@@ -46,6 +61,7 @@
         font-size: 1em;
         margin: 20px;
     }
+
 }
 
 
@@ -59,6 +75,21 @@
         height: 50vh;
         background-size: cover;
     }
+
+    main aside.bolo-principal {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    main aside.bolo-principal img.bolo-principal-img {
+        width: 50%;
+        margin: 20px;
+    }
+
 
     main section.produto {
         width: 750px;
@@ -77,6 +108,17 @@
         font-size: 1em;
         margin: 20px;
     }
+
+    div.centro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main div.centro {
+        height: 77vh;
+        max-width: 1200px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -92,6 +134,10 @@
 
     main section.promocoes {
         height: 70vh;
+    }
+
+    main aside.bolo-principal img.bolo-principal-img {
+        width: 40%;
     }
 
     main section.produto:hover {

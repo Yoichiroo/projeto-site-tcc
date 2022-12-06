@@ -114,6 +114,11 @@ section.info-produto-texto {
     height: 90vh;
 }
 
+section.info-produto-imagem img{
+    width: 600px;
+    border-radius: 50%;
+}
+
 section.info-produto-texto h1 {
     width: 340px;
     padding: 5px;

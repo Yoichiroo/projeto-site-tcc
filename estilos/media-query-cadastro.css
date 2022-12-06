@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (max-width:768px) {
+    main {
+        width: 540px;
+        height: 70vh;
+    }
+    
+    fieldset {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

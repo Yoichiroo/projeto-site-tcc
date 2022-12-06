@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@media screen and (max-width:768px) {
+    header i#menu {
+        text-align: right;
+        color: white;
+        font-size: 2em;
+        cursor: pointer;
+        transition: .2s ease;
+    }
+
+    header i#menu:hover {
+        font-size: 2.3em;
+    }
+
+    header nav ul {
+        display: none;
+    }
+    
+    main article.info-opcoes {
+        width: 400px;
+        height: 87vh;
+    }
+
+    article form.form {
+        width: 280px;
+    }
+
+    article.info-opcoes label {
+        display: inline-block;
+    }
+
+    footer {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (min-width:769px) {
+    header i#menu {
+        display: none;
+    }
+}

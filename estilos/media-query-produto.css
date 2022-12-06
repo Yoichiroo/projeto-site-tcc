@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@media screen and (max-width:768px) {
+
+    header i#menu {
+        text-align: right;
+        color: white;
+        font-size: 2em;
+        cursor: pointer;
+        transition: .2s ease;
+    }
+
+    header i#menu:hover {
+        font-size: 2.3em;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main section.info-produto-imagem img {
+        width: 200px;
+        margin-top: 300px;
+    }
+
+    main section.info-produto-texto {
+        width: 480px;
+    }
+    
+    main section.info-produto-texto h1 {
+        margin: auto;
+    }
+
+    div.botao {
+        position: absolute;
+        top: 164%;
+        left: 50%;
+        margin: 10px;
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width:769px) {
+    main {
+        flex-direction: row;
+    }
+
+    header i#menu {
+        display: none;
+    }
+
+    main section.info-produto-imagem img {
+        width: 500px;
+    }
+
+    main section.info-produto-texto h1 {
+        text-align: center;
+    }
+
+    div.botao {
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 20px;
+    }
+}

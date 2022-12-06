@@ -17,8 +17,12 @@
     }
     
     main article.info-opcoes {
-        width: 400px;
-        height: 87vh;
+        width: 370px;
+        height: 72vh;
+    }
+
+    article.info-opcoes input.botao {
+        margin: 5px auto 0px;
     }
 
     article form.form {

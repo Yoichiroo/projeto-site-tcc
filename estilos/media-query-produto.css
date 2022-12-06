@@ -28,7 +28,7 @@
     }
 
     main section.info-produto-texto {
-        width: 480px;
+        width: 450px;
     }
     
     main section.info-produto-texto h1 {
@@ -37,7 +37,7 @@
 
     div.botao {
         position: absolute;
-        top: 164%;
+        top: 170%;
         left: 50%;
         margin: 10px;
         box-sizing: border-box;
@@ -62,6 +62,16 @@
         text-align: center;
     }
 
+    div.botao {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:993px) {
     div.botao {
         position: absolute;
         top: 105%;

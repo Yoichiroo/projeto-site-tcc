@@ -29,6 +29,7 @@
 
     main section.info-produto-texto {
         width: 400px;
+        margin: auto;
     }
 
     main section.info-produto-texto p {
@@ -38,6 +39,8 @@
     
     main section.info-produto-texto h1 {
         margin: auto;
+        width: 400px;
+        text-align: center;
     }
 
     div.botao {

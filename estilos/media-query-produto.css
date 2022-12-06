@@ -33,6 +33,7 @@
 
     main section.info-produto-texto p {
         width: 400px;
+        text-align: center;
     }
     
     main section.info-produto-texto h1 {

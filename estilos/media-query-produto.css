@@ -82,7 +82,7 @@
 @media screen and (min-width:993px) {
     div.botao {
         position: absolute;
-        top: 150%;
+        top: 105%;
         left: 50%;
         transform: translate(-50%, -50%);
         margin-bottom: 20px;

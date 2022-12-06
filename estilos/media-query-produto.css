@@ -28,18 +28,18 @@
     }
 
     main section.info-produto-texto {
-        width: 400px;
+        width: 350px;
         margin: auto;
     }
 
     main section.info-produto-texto p {
-        width: 400px;
+        width: 350;
         text-align: center;
     }
     
     main section.info-produto-texto h1 {
         margin: auto;
-        width: 400px;
+        width: 350px;
         text-align: center;
     }
 

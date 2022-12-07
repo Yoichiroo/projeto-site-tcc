@@ -37,7 +37,7 @@ header div {
 
 header div p {
     font-family: 'Unna', serif;
-    font-size: 1.6em;
+    font-size: 2em;
     margin: 5px;
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.199);
     cursor: pointer;
@@ -114,6 +114,7 @@ main aside.bolo-principal h1.bolo-principal-titulo {
 main aside.bolo-principal img.bolo-principal-img {
     width: 20%;
     border-radius: 50%;
+    box-shadow: 0px 0px 25px var(--cor2);
 }
 
 main aside.bolo-principal div {

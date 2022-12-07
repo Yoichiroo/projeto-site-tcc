@@ -192,6 +192,7 @@ main section a.info-bolo-texto i{
     color: var(--cor1);
     font-size: 2.2em;
     float: left;
+    margin-top: 10px;
 }
 
 main section a.info-bolo-texto i#nao-icones{
